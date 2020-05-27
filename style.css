@@ -17,7 +17,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
 }
 h2 {
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: #28738B;
   font-weight: 900;
   font-family: 'Roboto', sans-serif;
@@ -33,7 +33,7 @@ ul {
   list-style: none;
 }
 .container{
-  width: 900px;
+  width: 600px;
   margin: 0 auto;
 }
 .card-shadowed {
@@ -51,6 +51,10 @@ ul {
  border-radius: 50%;
  filter: grayscale(10%) opacity(70%);
 }
+.word-red {
+  color: #FD2F13;
+  background-color: #FFE6E9;
+}
 .btn-blue{
   display: flex;
   color: #F8F9FA;
@@ -65,21 +69,31 @@ ul {
 .social-medias {
   display: flex;
   justify-content: space-around;
-  width: 20%;
+  width: 40%;
   padding-left: 0;
   margin:  auto;
+  font-size: 1.6em;
+}
+.italic {
+  font-style: italic;
+}
+.small {
+  font-size: 0.8em;
 }
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 700px;
+    width: 500px;
   }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 500px;
+    width: 400px;
+  }
+  .social-medias {
+    width: 60%
   }
 }
 @media (max-width: 540px) {
